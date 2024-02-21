@@ -1,0 +1,13 @@
+
+  <div class="container">
+  <div class="row">
+    <div class="col-12">
+      <p><%= params[:question] %> <br> - you say</p>
+    </div>
+    <div class="col-12">
+      <p><%= @coach_answer %> <br> - coach says</p>
+    </div>
+  </div>
+
+    <%= link_to "Ask for another advice", ask_path %>
+  </div>
